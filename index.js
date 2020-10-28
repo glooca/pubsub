@@ -1,4 +1,4 @@
-const PubSubMixin = {
+const PubSub = {
     callbacks: {},
     subscribe(ev, callback) {
         if (this.callbacks[ev] && this.callbacks[ev].includes(callback)) return this;
@@ -15,4 +15,4 @@ const PubSubMixin = {
         return this;
     }
 }
-module.exports = PubSubMixin;
+module.exports = PubSub;
