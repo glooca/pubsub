@@ -26,7 +26,7 @@ const PubSubMixin = {
         (this.callbacks[ev] || (this.callbacks[ev] = [])).push(callback);
         return this;
     },
-    unSubscribe(ev, callback) {
+    unsubscribe(ev, callback) {
         if (!this.callbacks[ev]) return this;
         this.callbacks[ev] = this.callbacks[ev].filter(item => item !== callback)
         return this;
