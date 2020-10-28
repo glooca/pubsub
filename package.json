@@ -1,0 +1,15 @@
+{
+  "name": "pubsub",
+  "version": "1.0.0",
+  "description": "Javascript publisher-subscriber mixin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksyri/pubsub.git"
+  },
+  "author": "ksyri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksyri/pubsub/issues"
+  },
+  "homepage": "https://github.com/ksyri/pubsub#readme"
+}
