@@ -36,4 +36,4 @@ const PubSubMixin = {
         return this;
     }
 }
-export default PubSubMixin;
+module.exports = PubSubMixin;
