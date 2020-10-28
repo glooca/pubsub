@@ -40,7 +40,7 @@ personInstance.subscribe('hello', console.log);
 ```
 Returns `this`
 
-## PubSub.unSubscribe(ev, callback)
+## PubSub.unsubscribe(ev, callback)
 Unsubscribe `callback` from event `ev`
 
 Example
