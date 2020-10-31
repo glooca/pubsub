@@ -1,6 +1,6 @@
 {
   "name": "pubsub",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Javascript publisher-subscriber mixin",
   "repository": {
     "type": "git",
@@ -8,8 +8,15 @@
   },
   "author": "ksyri",
   "license": "MIT",
+  "scripts": {
+    "test": "nyc mocha"
+  },
   "bugs": {
     "url": "https://github.com/ksyri/pubsub/issues"
   },
-  "homepage": "https://github.com/ksyri/pubsub#readme"
+  "homepage": "https://github.com/ksyri/pubsub#readme",
+  "devDependencies": {
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0"
+  }
 }

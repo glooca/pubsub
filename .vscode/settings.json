@@ -1,0 +1,5 @@
+{
+  "editor.tabSize": 2,
+  "eslint.lintTask.enable": true,
+  "eslint.format.enable": true
+}
