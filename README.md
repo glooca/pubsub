@@ -3,7 +3,7 @@ PubSub is a simple publisher subscriber eventbus or mixin intended to be usable 
 # Installing
 Using npm
 ```bash
-npm i github:ksyri/pubsub
+npm i github:ksyri/pubsub#v1.0.0
 ```
 
 # Methods
@@ -50,7 +50,7 @@ personInstance.subscribe('hello', console.log);
 ```
 Returns `this`
 
-## PubSubInstance.unSubscribe(ev, callback)
+## PubSubInstance.unsubscribe(ev, callback)
 Unsubscribe `callback` from event `ev`
 
 Example
