@@ -5,31 +5,41 @@ Using npm
 ```bash
 npm i github:ksyri/pubsub
 ```
-# Example
-Add as mixin to any object with `Object.assign`
-## Adding as mixin to ES6 classes
+
+# Methods
+
+## new PubSub
+Create new PubSub instance
+```js
+import PubSub from 'pubsub';
+const pubSub = new PubSub;
+```
+
+## PubSub.mixin(object)
+Add PubSub as mixin to `object`
+
+### Adding as mixin to ES6 classes
 ```js
 import PubSub from 'pubsub';
 
 class Person {
     constructor(name) {
         this.name = name;
-        Object.assign(this, PubSub);
+        PubSub.mixin(this);
     }
 }
 ```
-## Adding as mixin to prototypes
+### Adding as mixin to prototypes
 ```js
 const PubSub = require('pubsub');
 
 function Person(name) {
     this.name = name;
+    PubSub.mixin(this);
 };
-Object.assign(Person.prototype, PubSub);
 ```
 
-# Methods
-## PubSub.subscribe(ev, callback)
+## PubSubInstance.subscribe(ev, callback)
 Subscribe `callback` to event `ev`
 
 The parameters of `callback` depend on the event `ev` and how you call [publish](##pubsub.publish(ev,-...args)) on it
@@ -40,7 +50,7 @@ personInstance.subscribe('hello', console.log);
 ```
 Returns `this`
 
-## PubSub.unSubscribe(ev, callback)
+## PubSubInstance.unSubscribe(ev, callback)
 Unsubscribe `callback` from event `ev`
 
 Example
@@ -52,7 +62,7 @@ personInstance.unsubscribe('hello', logMessage);
 ```
 Returns `this`
 
-## PubSub.publish(ev, ...args)
+## PubSubInstance.publish(ev, ...args)
 Publish data `...args` to all listeners of event `ev`
 
 This calls the callback functions subscribed to event `ev` with parameters `...args`
