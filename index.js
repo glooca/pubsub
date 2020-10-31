@@ -16,4 +16,8 @@ PubSub.prototype.publish = function(ev, ...args) {
   this.callbacks[ev].forEach(callback => callback.apply(this, args));
   return this;
 }
+PubSub.mixin = (object) => {
+  Object.assign(object, new PubSub);
+  Object.assign(Object.getPrototypeOf(object), PubSub.prototype);
+}
 module.exports = PubSub;
