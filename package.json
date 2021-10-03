@@ -4,17 +4,17 @@
   "description": "Javascript publisher-subscriber mixin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksyri/pubsub.git"
+    "url": "git+https://github.com/glooca/pubsub.git"
   },
-  "author": "ksyri",
+  "author": "glooca",
   "license": "MIT",
   "scripts": {
     "test": "nyc mocha"
   },
   "bugs": {
-    "url": "https://github.com/ksyri/pubsub/issues"
+    "url": "https://github.com/glooca/pubsub/issues"
   },
-  "homepage": "https://github.com/ksyri/pubsub#readme",
+  "homepage": "https://github.com/glooca/pubsub#readme",
   "devDependencies": {
     "mocha": "^8.2.0",
     "nyc": "^15.1.0"
