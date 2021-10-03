@@ -1,4 +1,4 @@
-# PubSub
+# PubSub [![Node.js CI](https://github.com/ksyri/pubsub/actions/workflows/node.js.yml/badge.svg?branch=master&event=push)](https://github.com/ksyri/pubsub/actions/workflows/node.js.yml)
 PubSub is a simple publisher subscriber eventbus or mixin intended to be usable in many different environments
 # Installing
 Using npm
