@@ -1,4 +1,4 @@
-# PubSub [![Build Status](https://travis-ci.org/ksyri/pubsub.svg?branch=master)](https://travis-ci.org/ksyri/pubsub)
+# PubSub [![Build Status](https://app.travis-ci.com/ksyri/pubsub.svg?branch=master)](https://app.travis-ci.com/ksyri/pubsub)
 PubSub is a simple publisher subscriber eventbus or mixin intended to be usable in many different environments
 # Installing
 Using npm
