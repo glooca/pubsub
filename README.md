@@ -3,7 +3,7 @@ PubSub is a simple publisher subscriber eventbus or mixin intended to be usable 
 # Installing
 Using npm
 ```bash
-npm i github:ksyri/pubsub#v2.0.0
+npm i github:ksyri/pubsub#v2.0.1
 ```
 
 # Methods
