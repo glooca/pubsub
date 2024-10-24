@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository has been archived and is no longer maintained.
+
 # PubSub [![Node.js CI](https://github.com/glooca/pubsub/actions/workflows/node.js.yml/badge.svg?branch=master&event=push)](https://github.com/glooca/pubsub/actions/workflows/node.js.yml)
 PubSub is a simple publisher subscriber eventbus or mixin intended to be usable in many different environments
 # Installing
